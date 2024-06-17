@@ -1,0 +1,106 @@
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-image: url("1.webp");
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent; /* make background transparent */
+  padding: 10px 20px;
+  color: #fff;
+  position: absolute; /* set header to absolute positioning */
+  top: 0; /* stick it to the top */
+  left: 0; /* align to the left */
+  right: 0; /* align to the right */
+}
+
+.company-name {
+  font-size: 24px;
+  margin-left: 50px;
+  background-color: transparent;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+#first {
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+.domain-search {
+  margin: 0;
+  padding: 206px 0;
+}
+
+.domain-search .form-title {
+  margin-top: 0;
+  margin-bottom: 2px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.domain-search p {
+  color: #b0e7ff;
+  margin: 0;
+}
+
+.input-group {
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="search"]::placeholder {
+  border: 0;
+  text-align: center;
+}
+
+.domain-search .form-control {
+  height: 60px;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.input-group .input-group-addon [type="submit"],
+.input-group .input-group-addon button {
+  border: none;
+}
+
+.btn {
+  padding: 0 28px;
+  line-height: 54px;
+  background: #ff6726;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.btn-primary {
+  border-radius: 30px;
+}

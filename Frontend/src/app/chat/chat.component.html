@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+
+<body>
+    <form class="row domain-search bg-pblue">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h2 class="form-title">Find Your <strong>Dream Domain</strong></h2>
+
+                </div>
+                <div>
+                    <div class="input-group">
+                        <input type="search" [(ngModel)]="companyName" name="companyName" class="form-control" placeholder="Search for your dream domain now">
+                        
+                        <span class="input-group-addon"><button (click)="searchCompany()"
+                                class="btn btn-primary">Search</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
